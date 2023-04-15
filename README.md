@@ -34,7 +34,7 @@ The data provided for analysis includes the following columns:
 
 The dataset consists of 1,898 orders with 9 columns describing the orders. There are no missing values, but a closer inspection of the rating column reveals that there are 736 orders with a "Not given" value, which hides the presence of a missing value. Total revenue generated across all orders is $3,424.35. The main features of interest to understand demand of different restaurants is numbder of orders. To enhance customer expirience we should pay attention to ratings.
 
-### Number of order
+### Number of Orders
 
 The top three cuisine types are American, Japanese, and Italian and accounts for roughly 70% of total orders.American Cuisine is the most popular on weekends with 415 orders and accounting for 30% of total orders.
 71% of orders are placed on the weekend. And 29% of orders are placed on weekdays.
