@@ -1,4 +1,5 @@
 # FoodHub Data Analysis
+**For charts and code click here**: https://github.com/omarqanalyst/EDA_FoodHub/blob/master/FDS_Project_LearnerNotebook_FullCode.ipynb
 
 This project is aimed at performing an exploratory data analysis (EDA) on the data provided by FoodHub, a food aggregator company. The data contains information about different food orders made by registered customers through their online portal. The goal of this analysis is to gain insights and answers to key questions that can help the company enhance their customer experience and improve their business.
 
@@ -15,20 +16,6 @@ As a Data Scientist at FoodHub, my task is to analyze the data provided and find
 3. How much time does it take for restaurants to prepare food on average?
 4. How much time does it take for delivery persons to deliver food on average?
 5. What is the customer rating distribution and average rating for orders?
-
-## Data Description
-
-The data provided for analysis includes the following columns:
-
-- order_id: Unique ID of the order
-- customer_id: ID of the customer who placed the order
-- restaurant_name: Name of the restaurant
-- cuisine_type: Cuisine ordered by the customer
-- cost: Cost of the order
-- day_of_the_week: Indicates whether the order is placed on a weekday or weekend (weekday is from Monday to Friday, weekend is Saturday and Sunday)
-- rating: Rating given by the customer out of 5
-- food_preparation_time: Time (in minutes) taken by the restaurant to prepare the food, calculated as the difference between the timestamps of the restaurant's order confirmation and the delivery person's pick-up confirmation
-- delivery_time: Time (in minutes) taken by the delivery person to deliver the food package, calculated as the difference between the timestamps of the delivery person's pick-up confirmation and drop-off information.
 
 ## Conclusions:
 
@@ -56,3 +43,18 @@ Encourage customers to leave ratings: To gather more feedback, the business coul
 Promote popular cuisines: Promoting cuisines that have already proven to be successful can reduce the investment risk and increase the return on investment.
 Prioritize weekends: Similarly, it is important to note that weekends tend to generate more sales. Therefore, it is recommended that the company ensures they have an adequate number of drivers and staff available to meet the increased demand during those periods.
 Monitor the correlation between cost and rating: While there appears to be a weak correlation between the cost of an order and the rating, the business should continue to monitor this relationship to ensure that customers feel they are getting value for their money.
+
+## Data Description
+
+The data provided for analysis includes the following columns:
+
+- order_id: Unique ID of the order
+- customer_id: ID of the customer who placed the order
+- restaurant_name: Name of the restaurant
+- cuisine_type: Cuisine ordered by the customer
+- cost: Cost of the order
+- day_of_the_week: Indicates whether the order is placed on a weekday or weekend (weekday is from Monday to Friday, weekend is Saturday and Sunday)
+- rating: Rating given by the customer out of 5
+- food_preparation_time: Time (in minutes) taken by the restaurant to prepare the food, calculated as the difference between the timestamps of the restaurant's order confirmation and the delivery person's pick-up confirmation
+- delivery_time: Time (in minutes) taken by the delivery person to deliver the food package, calculated as the difference between the timestamps of the delivery person's pick-up confirmation and drop-off information.
+
