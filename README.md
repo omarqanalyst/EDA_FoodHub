@@ -1,6 +1,5 @@
 # FoodHub Data Analysis
-## For charts and code click here: 
-https://github.com/omarqanalyst/EDA_FoodHub/blob/master/FDS_Project_LearnerNotebook_FullCode.ipynb
+## For charts and code click here: https://github.com/omarqanalyst/EDA_FoodHub/blob/master/FDS_Project_LearnerNotebook_FullCode.ipynb
 
 This project is aimed at performing an exploratory data analysis (EDA) on the data provided by FoodHub, a food aggregator company. The data contains information about different food orders made by registered customers through their online portal. The goal of this analysis is to gain insights and answers to key questions that can help the company enhance their customer experience and improve their business.
 
